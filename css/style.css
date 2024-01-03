@@ -22,9 +22,9 @@ body{
 }
 
 .background-color-4{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .header{
@@ -92,6 +92,16 @@ ul{
     margin: 0px;
     border-radius: 12px;
     margin-top: 8px;
+}
+
+.button-2{
+    border: 2px solid white;
+    color: white;
+    background-color: #3882F6;
+    padding: 12px 25px;
+    border-radius: 12px;
+    flex-shrink: 0;
+    margin-right: 200px;
 }
 
 button:hover{
@@ -163,11 +173,41 @@ button:hover{
 }
 
 .blue-box{
+    display: flex;
+    flex-direction: column;
     background-color: #3882F6;
     margin: 150px;
+    border-radius: 1%/5%;
+    /* padding: 40px 100px 40px 100px; */
+}
+
+.left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 75px 40px 75px;
+}
+
+.blue-box-text-bold, .blue-box-text{
+    color: #F9FAF8;
+}
+
+.testing{
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-box-text-bold{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.blue-box-text{
+    font-size: 14px;
 }
 
 .footer{
     background-color: #1F2937;
 }
+
 
