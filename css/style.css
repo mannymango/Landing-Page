@@ -13,12 +13,18 @@ body{
     background-color:#1F2937;
 }
 
-.background-color-2, .background-4{
+.background-color-2, .background-color-4{
     background-color: white;
 }
 
 .background-color-3{
     background-color: #E5E7EB;
+}
+
+.background-color-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header{
